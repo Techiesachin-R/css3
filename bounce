@@ -1,6 +1,6 @@
 .ball {
   animation: bounce 1s infinite alternate;
-  -webkit-animation: bounce 1s infinite alternate;
+  -webkit-animation: bounce 1s infinite alternate; /* alternate is used for not repeating cycel */
 }
 @keyframes bounce {
   from {
